@@ -11,21 +11,21 @@ public class PasseiOuNao {
         if( (nota <= 10.0) && (nota >= 0.0) ){
          
             if( nota >= 7.0 ){
-                System.out.println("Parabéns, você passou direto. Por acaso você programa em Java?");
+                System.out.println("Parabens, voce passou direto. Por acaso voce programa em Java?");
             }
             else {
              
                 if( nota >= 5.0 ){
-                    System.out.println("Vai ter que fazer recuperação");
+                    System.out.println("Vai ter que fazer recuperacao");
                 }
                 else {
-                    System.out.println("Reprovado. Ainda bem que é só simulação, hein?");
+                    System.out.println("Reprovado. Ainda bem que e so simulacao, hein?");
                 }
             }
          
         }
         else {
-            System.out.println("Nota inválida, fechando aplicativo");
+            System.out.println("Nota invalida, fechando aplicativo");
         }
          
      
