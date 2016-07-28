@@ -1,18 +1,15 @@
-public class IncrementoDecremento {
+public class IncreDec{
   public static void main(String[]args){
-    int a=1;
-    int b=1;
+    int a = 4;
+    int b = 3;
     
-    System.out.println("Valor inicial de a = " + a);
-    System.out.println("Valor inicial de b = " + b);
-  
+    System.out.println("O valor inicial de a = "+ a);
+    System.out.println("O valor inicial de b = "+ b);
+   
+    a++;
+    b--;
     
-    System.out.println("Incrementando: a++");
-        a++;
-    System.out.println("Decrementando: b--");
-        b--;
-    
-    System.out.println("Agora a = " + a);
-    System.out.println("Agora b = " + b);
+    System.out.println("Incremento em a = "+ a++);
+    System.out.println("Decremento em b = "+ b--);
   }
 }
