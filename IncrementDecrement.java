@@ -9,7 +9,8 @@ public class IncreDec{
     a++;
     b--;
     
-    System.out.println("Incremento em a = "+ a++);
-    System.out.println("Decremento em b = "+ b--);
+    System.out.println("Incremento em a = "+ a);
+    System.out.println("Decremento em b = "+ b);
   }
 }
+
