@@ -1,33 +1,31 @@
 import java.util.Scanner;
-
-public class PasseiOuNao {
-    public static void main(String[] args) {
-        float nota; //vai armazenar a nota
-        Scanner entrada = new Scanner(System.in);
-     
-        System.out.print("Digite sua nota [0.0 - 10.0]: " );
-        nota = entrada.nextFloat();
-     
-        if( (nota <= 10.0) && (nota >= 0.0) ){
-         
-            if( nota >= 7.0 ){
-                System.out.println("Parabens, voce passou direto. Por acaso voce programa em Java?");
-            }
-            else {
-             
-                if( nota >= 5.0 ){
-                    System.out.println("Vai ter que fazer recuperacao");
-                }
-                else {
-                    System.out.println("Reprovado. Ainda bem que e so simulacao, hein?");
-                }
-            }
-         
+public class PassouNaoPassou{
+  public static void main(String[]args){
+    float nota;
+    Scanner entrada = new Scanner(System.in);
+    
+    System.out.println("Digite sua nota de 0.0 a 10.0");
+    nota = entrada.nextFloat();
+    if((nota <= 10.0) && (nota>=0.0)){
+      if(nota>=7.0){
+        System.out.println("Parabens, voce passou direto!");
+      }
+      else{
+        if(nota>=5.0){
+          System.out.println("Vai ter que fazer recuperacao");
         }
-        else {
-            System.out.println("Nota invalida, fechando aplicativo");
+        else{
+          System.out.println("Reprovado");
         }
-         
-     
+      }
+    }
+       else{
+         System.out.println("Nota invalida");
+       }
+       }
+       }
+       
+       
+          
     }
 }
