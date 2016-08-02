@@ -1,0 +1,3 @@
+Exercício:
+Crie um programa que receba um inteiro, de 1 até 12, representando os meses do ano e retorne o número de dias do mês.
+Use switch e não use break. Acumule os case.
